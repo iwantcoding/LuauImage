@@ -1,0 +1,9 @@
+{
+  "modules": [
+    "Request",
+    "Decoder/Png",
+    "Decoder/Bmp",
+    "Decoder",
+    "init"
+  ]
+}
