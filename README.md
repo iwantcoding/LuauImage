@@ -1,6 +1,6 @@
 # LuauImage
 
-LuauImage can fetch image data from an HTTP(S) URL, decode it into RGBA pixels, and write the result to a Roblox `EditableImage`.
+LuauImage can fetch image data from an HTTP/S URL, decode it into RGBA pixels, and write the result to a Roblox `EditableImage`.
 
 ## Supported formats
 
@@ -45,8 +45,6 @@ imageLabel.Parent = script.Parent
 ```lua
 LuauImage.Decoder.decode(bytes, { verifyChecksums = true })
 ```
-
-Creating and displaying an `EditableImage` requires Roblox support and permission to use editable images in the experience.
 
 ## Roadmap
 
